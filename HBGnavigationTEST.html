@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Helvetica', sans-serif;
+      font-weight: bold;
+    }
+
+    .navbar {
+      background-color: #0071c8;
+      padding: 10px 0;
+      height: 60px;
+    }
+
+    .nav-links {
+      display: grid;
+      grid-template-columns: repeat(6, 1fr);
+      text-align: center;
+      width: 100%;
+      max-width: 1200px;
+      margin: 0 auto;
+      font-size: 21px;
+    }
+
+    .nav-links a {
+      color: white;
+      text-decoration: none;
+      padding: 10px 0;
+      display: block;
+      transition: color 0.3s ease;
+    }
+
+    .nav-links a:hover {
+      color: #93bf4e;
+      text-decoration: none;
+    }
+
+    /* Responsive layout for mobile devices */
+    @media (max-width: 768px) {
+      .navbar {
+        height: auto;
+        padding: 20px 0;
+      }
+
+      .nav-links {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-size: 18px;
+      }
+
+      .nav-links a {
+        padding: 15px 0;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header class="navbar">
+    <nav class="nav-links">
+      <a href="https://hub.myclaytonapp.com/admin/plugin/page/6542612711ec0a3077fa2a83">HBG hub</a>
+      <a href="https://hub.myclaytonapp.com/content/page/676daa0659b5ce7178e5a44f?utm_source=in-app&utm_medium=link">News hub</a>
+      <a href="https://hub.myclaytonapp.com/content/page/6570b5a4a6ab4b331c822d0d?utm_source=in-app&utm_medium=link">Wellbeing</a>
+      <a href="https://hub.myclaytonapp.com/content/page/656def3f2a560746bef3c9ff?utm_source=in-app&utm_medium=link">Impact</a>
+      <a href="https://hub.myclaytonapp.com/content/page/65b81effd1f5e3176da24955?utm_source=in-app&utm_medium=link">HBG Initiatives</a>
+      <a href="mailto:hbghubhelp@claytonhomes.com">Hub Help</a>
+    </nav>
+  </header>
+
+</body>
+</html>
